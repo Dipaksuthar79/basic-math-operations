@@ -1,0 +1,26 @@
+ #task1
+
+student_marks = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 78,
+    "David": 92
+}
+name = input("Enter the student's name: ")
+if name in student_marks:
+    print(f"{name}'s marks: {student_marks[name]}")
+else:
+    print("Student not found.")
+
+
+#task2
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+extracted = numbers[:5]
+
+reversed_list = extracted[::-1]
+
+print("Original list:", numbers)
+print("Extracted first five elements:", extracted)
+print("Reversed extracted elements:", reversed_list)
